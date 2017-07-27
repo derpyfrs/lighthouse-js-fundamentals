@@ -1,0 +1,7 @@
+var sales = [1, 2, 3];
+
+sales.forEach(function(item) {
+  sum(item);
+});
+
+console.log(i)
