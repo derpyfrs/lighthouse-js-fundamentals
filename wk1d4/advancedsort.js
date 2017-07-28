@@ -6,7 +6,7 @@ var students = [
 ];
 
 students.sort(function(list1,list2){
-return list1.age - list2.age
+  return list1.age - list2.age;
 })
 
 function compare(a,b) {
