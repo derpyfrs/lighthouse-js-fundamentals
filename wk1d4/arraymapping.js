@@ -4,9 +4,9 @@ var input = [
   { x: 8, y: 15 }
 ];
 var result = input.map(function(lala){
-  results = Math.sqrt(lala.x * lala.x + lala.y * lala.y)
+  results = Math.sqrt(lala.x * lala.x + lala.y * lala.y);
   console.log(results);
-  return results
+  return results;
 });
 
 

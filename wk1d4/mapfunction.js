@@ -9,6 +9,6 @@ function map(arr, cb) {
 }
 
 console.log(map(words, function(word){
-    return word.length;
-  })
-)
+  return word.length;
+})
+);

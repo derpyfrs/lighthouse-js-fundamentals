@@ -5,16 +5,18 @@ var students = [
   { id: 4, name: "alex",     age: 30 }
 ];
 
-students.sort(function(list1,list2){
-  return list1.age - list2.age;
-})
+// students.sort(function(list1,list2){
+//   return list1.age - list2.age;
+// })
 
 function compare(a,b) {
-  if (a.name < b.name)
+  if (a.name < b.name) {
     return -1;
-  if (a.name > b.name)
+  } else if (a.name > b.name) {
     return 1;
-  return 0;
+  } else {
+    return a.age - b.age;
+  }
 }
 
 students.sort(compare);
