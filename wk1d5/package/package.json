@@ -1,0 +1,16 @@
+{
+  "name": "newproj",
+  "version": "1.0.0",
+  "description": "chalk exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"hello\""
+  },
+  "keywords": [
+    "chalk",
+    "npm",
+    "wpw"
+  ],
+  "author": "Simon Chan",
+  "license": "ISC"
+}
